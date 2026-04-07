@@ -3,6 +3,7 @@
 
 #include <string>
 
+
 class Player {
 private:
     std::string name;
@@ -12,5 +13,6 @@ public:
     void addWinnings(float amount);
     float getTotalWinnings();
 };
+
 
 #endif
