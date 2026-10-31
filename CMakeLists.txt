@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(CasinoNumberGuessingGame)
 
 set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_COMPILER gcc)
+set(CMAKE_CXX_COMPILER /usr/bin/gcc)
 include_directories(src)
 
 add_executable(casino_game src/main.cpp src/game.cpp src/player.cpp)
